@@ -27,9 +27,22 @@ public class Main {
         Scanner tara= new Scanner(System.in);
         System.out.println("Matematik Notunu giriniz : ");
         mat =tara.nextInt();
+        System.out.println("Fizik Notunu giriniz : ");
+        fizik =tara.nextInt();
+        System.out.println("Kimya Notunu giriniz : ");
+        kimya =tara.nextInt();
         String durum;
-        durum=(mat>60)?"Geçti":"Kaldı";
-        System.out.println("Matematik Notu : "+mat+" "+durum);
 
+
+        durum=(mat>=60)?"Ders Geçti":"Kaldı";
+        System.out.println("Matematik Notu : "+mat+" "+durum);
+        durum=(fizik>=60)?"Ders Geçti":"Kaldı";
+        System.out.println("Fizik Notu : "+fizik+" "+durum);
+        durum=(kimya>=60)?"Ders Geçti":"Kaldı";
+        System.out.println("Kimya Notu : "+kimya+" "+durum);
+        int ortalama;
+        ortalama=(mat+fizik+kimya)/3;
+        durum=(ortalama>=60)?"Sınıf Geçti":"Kaldı";
+        System.out.println("Sınıf Ortalama : "+ortalama+" "+durum);
     }
 }
