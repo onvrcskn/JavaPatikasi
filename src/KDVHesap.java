@@ -13,13 +13,12 @@ public class KDVHesap {
         System.out.println("Lütfen Tutarı Giriniz : ");
         double tutar = tara.nextDouble();
         double kdvliTutar;
-        if (tutar>1000){
-            System.out.println("KDV Oranı : " +kdvOran2);
+        if (tutar > 1000) {
+            System.out.println("KDV Oranı : " + kdvOran2);
+        } else {
+            System.out.println("KDV Oranı : " + kdvOran1);
         }
-        else {
-            System.out.println("KDV Oranı : " +kdvOran1);
-        }
-        kdvliTutar=(tutar>1000)?(tutar * kdvOran2):(tutar * kdvOran1);
+        kdvliTutar = (tutar > 1000) ? (tutar * kdvOran2) : (tutar * kdvOran1);
         System.out.println("Tutar : " + tutar);
 
         System.out.println("KDV tutarı : " + kdvliTutar);
