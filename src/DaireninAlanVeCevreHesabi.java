@@ -10,7 +10,6 @@ public class DaireninAlanVeCevreHesabi {
         System.out.println("Dairenin Çapı :" +daireninCapi);
         double alan= (Math.PI)*daireninCapi*daireninCapi;
         double cevre = (Math.PI)*2*daireninCapi;
-
         System.out.println("Dairenin Alanı : "+alan);
         System.out.println("Dairenin Çevresi : "+cevre);
 
