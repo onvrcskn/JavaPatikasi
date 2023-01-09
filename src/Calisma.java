@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Calisma {
 
+
     public static void main(String[] args) {
         int a = 0;
         int total = 0;
