@@ -9,7 +9,7 @@ public class Kalitim extends Calisma {
 
     }
    static void kos (){
-       
+
         Calisma();
 
     }
