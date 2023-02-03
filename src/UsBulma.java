@@ -12,7 +12,6 @@ public class UsBulma {
         for (int i=1 ; i<=n ; i++) {
             sayi *=k;
         }
-
         System.out.print("sonuç= " +sayi );
     }
 }
