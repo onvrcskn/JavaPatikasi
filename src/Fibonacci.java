@@ -16,7 +16,6 @@ public class Fibonacci {
             temp1 = temp3;
             temp2 = temp4;
             System.out.print(temp3 + " " + temp4 + " ");
-
         }
     }
 }
